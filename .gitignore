@@ -1,0 +1,30 @@
+# Build artifacts
+build/
+build-*/
+CMakeCache.txt
+CMakeFiles/
+Testing/
+*.dir/
+*.obj
+*.pdb
+*.ilk
+*.tmp
+*.log
+
+# IDE/Editor
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.vcxproj.user
+
+# Outputs redirected by CMake properties
+/tests/bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package managers
+vcpkg_installed/
